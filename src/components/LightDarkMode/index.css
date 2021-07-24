@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px;
+  padding: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+.dark {
+  background-color: #000000;
+  color: #ffffff;
+}
